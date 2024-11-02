@@ -1,0 +1,104 @@
+body{
+    background-color:black;
+    font-family: Roboto;
+    scroll-behavior:smooth;    
+}
+h1{
+    color: white;
+    font-size:100px;
+    text-align: center;
+    margin: 0;
+}
+body,.header,footer{
+    margin: 0;
+    font-family:Roboto;
+}
+.div-header {
+    display: flex;
+    justify-content: center;  /* Horizontally center the heading */
+    align-items: center;      /* Vertically center the heading */
+    height: 100%;             /* Takes full height of the header */
+}
+/* images */
+/* C:\Users\LEGION\Documents\Restraunt-html\images */
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/images/food_only.jpg");
+    background-repeat:no-repeat;
+    width:100%;
+    background-size: cover;
+    height: 30vh;
+    background-position: 0 80%;
+    position: relative;
+    margin-bottom:0;   
+} 
+.hero .list{
+    list-style:none;  
+    padding: 0;
+    margin:0;
+}
+.hero .nav-bar .list{
+    display: flex;
+    justify-content: space-between;
+}
+.hero .nav-bar{
+    /* background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)); */
+    border: 2px white solid;
+    margin-top:0;
+    margin-bottom: 0;
+}
+.hero .nav-bar li{
+    padding: 10px;
+}
+.hero .nav-bar li a{
+    font-size:20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+.hero .nav-bar li a:hover{
+    background-color: white;
+    color:black;
+    padding: 10px;
+    transition-duration: 0.25s;
+
+}
+
+.hero .nav-bar li .home
+{
+margin-left: 15px;
+}
+.hero .nav-bar li .about{
+    margin-right:15px;
+}
+.main h2{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    width: 45%;
+    margin-left:27%;
+    animation: blink 2s infinite; 
+    margin-top:8%;
+}
+    /* margin-top: 50px; */
+    /* animation: blink 2s infinite; */
+
+
+ @keyframes blink{
+    50%{
+        opacity: 0;
+    }
+    0%{
+        opacity: 1;
+    }
+} 
+
+footer p,a{
+    margin: 0;  
+}
+footer .end-part,a{
+    text-align: center;
+    bottom:0 ;
+    color:rgb(130, 126, 126);
+    font-weight: bold;
+}

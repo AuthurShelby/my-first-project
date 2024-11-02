@@ -1,0 +1,153 @@
+body{
+    background-color:black;
+    font-family: Roboto;
+    scroll-behavior:smooth;    
+}
+h1{
+    color: white;
+    font-size:100px;
+    text-align: center;
+    margin: 0;
+}
+body,.header,footer{
+    margin: 0;
+    font-family:Roboto;
+}
+.div-header {
+    display: flex;
+    justify-content: center;  /* Horizontally center the heading */
+    align-items: center;      /* Vertically center the heading */
+    height: 100%;             /* Takes full height of the header */
+}
+
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/images/food_only.jpg");
+    background-repeat:no-repeat;
+    width:100%;
+    background-size: cover;
+    height: 30vh;
+    background-position: 0 80%;
+    position: relative;
+    margin-bottom:0;   
+} 
+.hero .list{
+    list-style:none;  
+    padding: 0;
+    margin:0;
+}
+.hero .nav-bar .list{
+    display: flex;
+    justify-content: space-between;
+}
+.hero .nav-bar{
+    /* background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)); */
+    border: 2px white solid;
+    margin-top:0;
+    margin-bottom: 0;
+}
+.hero .nav-bar li{
+    padding: 10px;
+}
+.hero .nav-bar li a{
+
+    font-size:20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    transition: 0.5s;
+    
+}
+.hero .nav-bar li a:hover{
+    background-color: white;
+    color:black;
+    padding: 10px;
+    transition-duration: 0.25s;
+
+}
+
+.hero .nav-bar li .home
+{
+margin-left: 15px;
+}
+.hero .nav-bar li .about{
+    margin-right:15px;
+}
+.plot {
+    background-color:white;
+    border: 3px white solid;
+    border-radius:8px;
+    margin-right:35%;
+    margin-left: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.form-container{
+    display: flex;
+    justify-content:center;
+    color:white;
+    font-weight: bold;
+}
+.form-container .form label,input,button,p{
+    margin-left:10px;
+    margin-top:5px;
+}
+.form-container .form label{
+    font-size: 20px;
+}
+.form-container .form input{
+    padding: 8px;
+    margin-bottom: 10px;
+    /* border-radius: 4px; */
+    border: none;
+    width:90%;
+    font-weight: bold;  
+  
+}
+.form-container .form button{
+    margin-top: 10px;
+    padding: 8px;
+    width: 97%;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    background-color:red;
+    transition: 0.4s;
+    border: none;
+
+}
+
+.form-container .form button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: tomato;
+}
+
+.plot .form-container .form{
+    background-color: black;
+    padding:15px;
+}
+
+.create-ac p{
+    color:whitesmoke;
+    font-weight: bold;
+    margin-top:20px;
+}
+
+.create-ac p a{
+    color:whitesmoke;
+}
+footer{
+    margin-top: 120px;
+}
+footer p,a{
+    margin: 0;
+}
+
+footer .end-part,a{
+    text-align: center;
+    bottom: 0;
+    color:rgb(130, 126, 126);
+    font-weight: bold;
+}
