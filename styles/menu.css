@@ -24,7 +24,7 @@ body, .header, footer {
 }
 
 .header {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/food_only.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://authurshelby.github.io/my-first-project/images/food_only.jpg");
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
